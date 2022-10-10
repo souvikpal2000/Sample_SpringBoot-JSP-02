@@ -1,0 +1,15 @@
+.container, form{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+p{
+	margin: 2px;
+}
+.alert{
+	color: red;
+}
+h2{
+	margin-top: 0px;
+}
