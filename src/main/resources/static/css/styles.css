@@ -13,3 +13,18 @@ p{
 h2{
 	margin-top: 0px;
 }
+table{
+	margin-top: 1rem;
+}
+td{
+	border: 3px solid black !important;
+	padding: 1rem;
+}
+h3{
+	text-align: center;
+	margin: 0px;
+}
+.itemName{
+	background-color: black;
+	color: white;
+}

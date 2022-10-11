@@ -1,11 +1,15 @@
 package com.example.wiprojsp02.entity;
 
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
 @Entity
 public class Bids {
 	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private int bidId;
 	private String itemId;
 	private String itemName;
 	private String name;
@@ -16,7 +20,6 @@ public class Bids {
 	Bids(){}
 
 	public Bids(String itemId, String itemName, String name, String email, String bidAmount, String autoIncrement) {
-		super();
 		this.itemId = itemId;
 		this.itemName = itemName;
 		this.name = name;
@@ -65,7 +68,7 @@ public class Bids {
 		this.bidAmount = bidAmount;
 	}
 
-	public String isAutoIncrement() {
+	public String getAutoIncrement() {
 		return autoIncrement;
 	}
 

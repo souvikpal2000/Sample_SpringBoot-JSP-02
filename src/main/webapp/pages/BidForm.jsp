@@ -15,7 +15,6 @@
 				<p>Item ID : <input type="number" name="itemId" required/></p>
 				<p>Item Name : <input type="text" name="itemName"/></p>
 				<p>Your Name : <input type="text" name="name"/></p>
-				<p>Your Name : <input type="text" name="name"/></p>
 				<p>Your Email Address : <input type="email" name="email"/></p>
 				<p>Amount Bid : <input type="number" name="bidAmount"/></p>
 				<p>Auto-increment bid to match other bidders? : <input type="checkbox" name="autoIncrement" value="true"/></p>			
